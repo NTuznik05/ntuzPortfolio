@@ -1,20 +1,85 @@
 body {
 
     /*background:papayaWhip*/
-    background: LightSteelBlue;
+    background: #989F7E;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    margin:auto;
+    padding:3% 20%;
+    line-height: 1.25;  
 }
 
 div.side-by-side {
     display: flex;
 }
 
-img {
+img{
     width: 59%;
     max-width: 500px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+
 .featureBlock {
-    background-color:pink;
+    background-color:GRAY;
     font-size: smaller;
+}
+
+h1{
+    text-align:center;
+    color: #DDD7C0;
+}
+
+h2{
+    text-align:center;
+    color: #DDD7C0;
+}
+
+nav{
+    text-align:center;
+    font-size: 24px;
+    
+}
+
+figcaption{
+    text-align:left;
+    color: #DDD7C0;
+}
+
+
+
+.box{
+      margin-top:24px;
+      background: #745C4C;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+      text-align: center;
+      overflow: hidden;
+      color: #DDD7C0;
+      }
+      
+.boxResume{
+    margin-top:24px;
+      background: #745C4C;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+      overflow: hidden;
+      color: #DDD7C0;
+    
 }

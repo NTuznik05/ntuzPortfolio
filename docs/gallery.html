@@ -1,45 +1,37 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
+        <title>Gallery !!
+        </title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1>Gallery</h1>
-        <nav class="featureBlock">
-            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="resume.html">Resume
-            
+        <nav>
+            <a href="home.html">Home</a> | <a href="gallery.html">Gallery</a> | <a href="resume.html">Resume</a>
         </nav>
-        <p>This is my Gallery page.</p>
+        <p class="center" style="color:#DDD7C0;">This area is a little collection of things i've created.</p>
         
-        
-        <div class="side-by-side">
-            <p>Go back to my <a href="index.html">main page</a>.</p>
+   <div class="box">
+       <h2>Dear Data</h2>
             <figure>
-                <img src="images/llama_mp.jpg" />
-                <figcaption>Here is a llama I encountered on an amazing hiking trip in Macchu
-                    Picchu, on the Inca Trail.</figcaption>
+                <img class="centerimg" src="images/Drinking%20Garden.jpg" />
+                <figcaption>Not my proudest work, and I'm definitely no artist, but, this was my Data from my Dear Data Project in Digit 100. I tracked the different kinds of drinks that I had throughout the week. I tracked the type of drink, whether it was caffeinated, and how I felt while drinking it. I Honestly think it's safe to say I might have a caffeine addiction so I thought that this project would help me visualize my intake. </figcaption>
             </figure>
-           
+   </div>
+        <div class="box">
+     <h2>Granny Tuzmixx</h2>
+        <figure>
+        <iframe class="centerimg" width="560" height="315" src="https://www.youtube.com/embed/6ttx5l72eZ4?si=d7j0HgRa4v4G69v2&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe>
+     <figcaption>This is a project I did for my Plants, People, and Places class. The assignment was to create some sort of largescale presentation about Plants. 
+         My group, for whatever reason, decided to go with a rap battle!! We all individually created a rap and music video to compare and contrast the origin and chemical build of different breeds of apples. Mine, the Granny Smith.
+         This project was definitely a bit of a humiliation ritual, and totally out of my comfort zone, but it's safe to say that I won the rap battle. Here, I put a link in case my video embed breaks:
+         <a href="https://www.youtube.com/watch?v=6ttx5l72eZ4">Granny Tuzmixx.</a>         
+     </figcaption>
+        </figure>
+            
         </div>
-        <footer class="featureBlock">
-            <p>Shout out to the w3c community, and the developers of markup languages, and the oXygen XML editor!</p>
-            <p>We are . . . Digit at Penn State Behrend!</p>
-        </footer>
     </body>
 </html>
